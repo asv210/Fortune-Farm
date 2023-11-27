@@ -5,7 +5,11 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light"
-      style={{ fontSize: "1.2rem", fontFamily: "Montserrat Alternates", color: 'black' }}
+      style={{
+        fontSize: "1.2rem",
+        fontFamily: "Montserrat Alternates",
+        color: "black",
+      }}
     >
       <div className="container-fluid">
         {/* <NavLink className="navbar-brand mx-3" to="/">
@@ -50,13 +54,13 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item mx-3">
-              <NavLink to="/contact" className="nav-link">
-                Contact us
+              <NavLink to="/about" className="nav-link">
+                About us
               </NavLink>
             </li>
             <li className="nav-item mx-3">
-              <NavLink to="/about" className="nav-link">
-                About us
+              <NavLink to="/contact" className="nav-link">
+                Contact us
               </NavLink>
             </li>
             <li
@@ -68,7 +72,12 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 href="."
-                style={{ textDecoration: 'none', color: 'black', fontFamily: 'Montserrat Alternates', opacity: '0.6' }}
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                  fontFamily: "Montserrat Alternates",
+                  opacity: "0.6",
+                }}
               >
                 Login
               </a>
