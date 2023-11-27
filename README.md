@@ -37,14 +37,6 @@ The Fortune Farm project is aimed at improving the agriculture sector by providi
 
 - Deployment: The Fortune Farm project is deployed using Google Cloud and AMD instance, which provides a reliable and scalable infrastructure for hosting web applications. The deployment process is automated using CI/CD pipelines to ensure a seamless and error-free deployment process.
 
-## Roles of team members
-
-- Rahul Shinde :- Frontend part ( weather API fetching and UI desgin) and deployment of backend and frontend to Google cloud.
-- Apar Solanki :- Backend part (creating REST APIs for CRUD operations and integration of backend with frontend) 
-- Shreya Patel :- Frontend part (UI desgin)
-- Sanjana Daki :- Frontend part (UI design)
-
-
 This app have been deployed directly to Google Cloud using AMD instance. The backend nodejs server is deployed in Compute engine Virtual instance and the frontend reactjs is deployed in app engine and its build folder in cloud storage. 
 
 ## File structure
